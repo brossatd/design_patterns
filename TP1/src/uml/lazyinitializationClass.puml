@@ -1,0 +1,26 @@
+@startuml LazyInitialization
+
+package com.tetras.librairie {
+  class ServiceInfoEleve { 
+      + getInformationEleve(int) : Eleve
+  }
+
+  note bottom of ServiceInfoEleve : getInformationEleve dure 900ms.
+  
+  class Eleve {
+      - int id
+      - String nom
+      - String prenom
+  }
+}
+
+package com.tetras.application #DDDDDD {
+  class Application { 
+      + start()
+  }
+  Application ..> ServiceInfoEleve : use
+}
+
+
+
+@enduml
