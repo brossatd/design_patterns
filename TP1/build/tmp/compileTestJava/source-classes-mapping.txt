@@ -1,2 +1,0 @@
-com/tetras/FactoryTest.java
- com.tetras.FactoryTest

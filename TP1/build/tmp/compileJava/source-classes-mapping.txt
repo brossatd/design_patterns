@@ -1,4 +1,0 @@
-com/tetras/LukeSkywalker.java
- com.tetras.LukeSkywalker
-com/tetras/Yoda.java
- com.tetras.Yoda
