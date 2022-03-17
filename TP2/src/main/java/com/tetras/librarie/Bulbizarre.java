@@ -2,7 +2,7 @@ package com.tetras.librarie;
 
 import java.util.Arrays;
 
-public class Bulbizarre extends Pokemon implements IEvoluable {
+public class Bulbizarre extends Pokemon implements IEvolution {
 
     public Bulbizarre() {
         super(Arrays.asList(Type.Plante, Type.Poison));
